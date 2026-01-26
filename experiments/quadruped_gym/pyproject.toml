@@ -1,0 +1,11 @@
+[project]
+name = "quadruped_gym"
+version = "0.1.0"
+dependencies = [
+    "gymnasium",
+    "numpy-quaternion",
+    "matplotlib",
+    "scipy",
+    "opencv-python",
+    "termcolor"
+]
