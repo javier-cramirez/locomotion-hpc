@@ -1,8 +1,14 @@
 # Python:
 *.py[cod]
 *.so
+*.png
+*.html
+*.xml
 *.egg
 *.egg-info
 dist
 build
 __pycache__
+
+
+robo310/

@@ -2,7 +2,7 @@ import numpy as np
 import rasterio
 import plotly.graph_objects as go
 
-path = "/mnt/c/Users/jrsts/Downloads/new.tin/output.tin.tif"
+path = "/Users/javierramirez/Desktop/tif_files/RandomMountainIDK.tin.tif"
 
 with rasterio.open(path) as src:
     dem = src.read(1).astype(np.float32)
@@ -45,6 +45,7 @@ fig.update_layout(
     margin=dict(l=0, r=0, b=0, t=40),
 )
 
-fig.write_html("dem_3d.html", include_plotlyjs="cdn")
-print("Saved dem_3d.html")
+fig.show()
+#fig.write_html("dem_3d.html", include_plotlyjs="cdn")
+#print("Saved dem_3d.html")
 
