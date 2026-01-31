@@ -6,9 +6,12 @@
 *.xml
 *.egg
 *.egg-info
+*.mp4
 dist
 build
 __pycache__
 
 
+.gitignore
 robo310/
+robo_venv/
