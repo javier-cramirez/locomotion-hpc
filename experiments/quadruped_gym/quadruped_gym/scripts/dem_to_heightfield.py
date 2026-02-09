@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import zoom, gaussian_filter  # pip install scipy
 import imageio.v2 as imageio                     # pip install imageio
 
-in_tif = "/Users/javierramirez/Desktop/tif_files/NorthMountain1.tin.tif"
+in_tif = "/mnt/c/Users/jrsts/Downloads/tif_files/NorthMountain1.tin.tif"
 out_png = "terrain_hfield_16bit.png"
 
 # ---- settings you control ----
